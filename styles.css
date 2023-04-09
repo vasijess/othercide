@@ -172,3 +172,96 @@ span {
 .banner-3 {
     background-image: url(./assets/tcchild.jpg);
 }
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+h6 {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+   /* media queries */
+
+@media(max-width: 768px) {
+    /* estilos para dispositivos com largura de tela maior ou igual a 768 pixels */
+    .footer-navigation {
+        display: block;
+}
+
+nav {
+    display: none;
+}
+
+#banner {
+    background-position: 50%;
+}
+
+#trailer-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.trailer {
+    width: 100%;
+}
+
+#sinopse {
+    width: 95%;
+    display: flex;
+}
+
+.description {
+    width: 100%;
+}
+
+.button {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.cards-content {
+    grid-template-columns: 1fr;
+    margin-top: 150px;
+}
+
+  /* animation */
+
+.heart {
+    display: inline-block;
+    font-size: 1rem;
+    animation: heart .5s infinite alternate linear;
+  }
+  
+  @keyframes heart {
+    from {
+        transform: scale(.7);
+  }
+    to {
+        transform: scale(1);
+  }
