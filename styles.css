@@ -255,19 +255,3 @@ nav {
     grid-template-columns: 1fr;
     margin-top: 150px;
 }
-
-  /* animation */
-
-.heart {
-    display: inline-block;
-    font-size: 1rem;
-    animation: heart .5s infinite alternate linear;
-  }
-  
-  @keyframes heart {
-    from {
-        transform: scale(.7);
-  }
-    to {
-        transform: scale(1);
-  }
