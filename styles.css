@@ -228,7 +228,7 @@ nav {
 }
 
 .trailer {
-    width: 100%;
+    width: 80%;    
 }
 
 #sinopse {
@@ -238,6 +238,12 @@ nav {
 
 .description {
     width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+   #sinopse {
+      flex-direction: column;
+   }
 }
 
 .button {
