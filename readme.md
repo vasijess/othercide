@@ -24,4 +24,4 @@ Para executar o projeto, comecei criando um esboço do design em um documento de
 ## 🔖 Conclusão
 <p style="text-align: justify;">Este projeto foi um grande desafio, mas também foi uma ótima oportunidade para colocar em prática minhas habilidades de desenvolvimento front-end. Estou animado para continuar aprendendo e aprimorando minhas habilidades à medida que continuo a trabalhar em projetos futuros. ❤️</p>
 
-Você pode visualizar o layout do projeto através <a href="">DESSE LINK</a>.
+Você pode visualizar o layout do projeto através <a href="https://vasijess.github.io/othercide/">DESSE LINK</a>.
